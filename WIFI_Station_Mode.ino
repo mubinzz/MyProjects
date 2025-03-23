@@ -14,10 +14,8 @@ void setup() {
   }
   Serial.print("\n Wifi Connected");
 
-  //WiFi.softAP(ssid,pass);
   Serial.print("\n");
   Serial.print(WiFi.localIP());
-  //Serial.println(WiFi.softAPIP());
 }
 void loop() {
 }
